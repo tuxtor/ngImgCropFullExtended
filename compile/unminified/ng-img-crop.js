@@ -868,7 +868,7 @@ crop.factory('cropArea', ['cropCanvas', function(CropCanvas) {
             h: s.h
         });
     };
-    
+
     CropArea.prototype.setCenterPointOnMove = function(point) {
         var s = this.getSize();
         this.setSizeOnMove({
@@ -3181,7 +3181,7 @@ crop.directive('imgCrop', ['$timeout', 'cropHost', 'cropPubSub', function ($time
 /* canvas-toBlob.js
  * A canvas.toBlob() implementation.
  * 2013-12-27
- * 
+ *
  * By Eli Grey, http://eligrey.com and Devin Samarin, https://github.com/eboyjr
  * License: X11/MIT
  *   See https://github.com/eligrey/canvas-toBlob.js/blob/master/LICENSE.md
@@ -3939,15 +3939,15 @@ crop.directive('imgCrop', ['$timeout', 'cropHost', 'cropPubSub', function ($time
     /**
      * Export class to global
      */
-    if (typeof define === 'function' && define.amd) {
-        define([], function() {
-            return ColorThief;
-        }); // for AMD loader
-    } else if (typeof exports === 'object') {
-        module.exports = ColorThief; // for CommonJS
-    } else {
-        this.ColorThief = ColorThief;
-    }
+//    if (typeof define === 'function' && define.amd) {
+//        define([], function() {
+//            return ngImgCropFullExtended;
+//        }); // for AMD loader
+//    } else if (typeof exports === 'object') {
+//        module.exports = ngImgCropFullExtended; // for CommonJS
+//    } else {
+//        this.ColorThief = ngImgCropFullExtended;
+//    }
 }.call(this));
 
 }());
@@ -4748,11 +4748,11 @@ crop.directive('imgCrop', ['$timeout', 'cropHost', 'cropPubSub', function ($time
         return findEXIFinJPEG(file);
     }
 
-    if (typeof define === 'function' && define.amd) {
-        define('exif-js', [], function() {
-            return EXIF;
-        });
-    }
+//    if (typeof define === 'function' && define.amd) {
+//        define('exif-js', [], function() {
+//            return EXIF;
+//        });
+//    }
 }.call(this));
 
 
@@ -5010,13 +5010,13 @@ crop.directive('imgCrop', ['$timeout', 'cropHost', 'cropPubSub', function ($time
   /**
    * Export class to global
    */
-  if (typeof define === 'function' && define.amd) {
-    define([], function() { return MegaPixImage; }); // for AMD loader
-  } else if (typeof exports === 'object') {
-    module.exports = MegaPixImage; // for CommonJS
-  } else {
-    this.MegaPixImage = MegaPixImage;
-  }
+//  if (typeof define === 'function' && define.amd) {
+//    define([], function() { return MegaPixImage; }); // for AMD loader
+//  } else if (typeof exports === 'object') {
+//    module.exports = MegaPixImage; // for CommonJS
+//  } else {
+//    this.MegaPixImage = MegaPixImage;
+//  }
 
 })();
 
@@ -5658,13 +5658,13 @@ crop.directive('imgCrop', ['$timeout', 'cropHost', 'cropPubSub', function ($time
     /**
      * Export class to global
      */
-    if (typeof define === 'function' && define.amd) {
-        define([], function() {
-            return ColorThief;
-        }); // for AMD loader
-    } else if (typeof exports === 'object') {
-        module.exports = ColorThief; // for CommonJS
-    } else {
-        this.ColorThief = ColorThief;
-    }
+//    if (typeof define === 'function' && define.amd) {
+//        define([], function() {
+//            return ColorThief;
+//        }); // for AMD loader
+//    } else if (typeof exports === 'object') {
+//        module.exports = ColorThief; // for CommonJS
+//    } else {
+//        this.ColorThief = ColorThief;
+//    }
 }.call(this));
